@@ -1,27 +1,28 @@
 {
-  "name": "com.xavier.x-common",
-  "version": "1.0.0",
-  "displayName": "X Common",
-  "description": "A great helper to manage your code, Simplify your code problems",
-  "unity": "2020.1",
-  "keywords": [
-    "tools",
-    "helper",
-    "xavier"
-  ],
-  "author": {
-    "name": "Ch4b13r (Kingdox)",
-    "email": "arpaxavier@gmail.com",
-    "url": "https://ch4b13r.itch.io/"
-  },
-  "hideInEditor": true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://kingdox@github.com/kingdox/x-common.git"
-  },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kingdox/x-common/issues"
-  },
-  "homepage": "https://github.com/kingdox/x-common#readme"
+    "name": "com.xavier.x-common",
+    "version": "1.0.0",
+    "displayName": "X Common",
+    "description": "A great helper to manage your code, Simplify your code problems",
+    "unity": "2020.1",
+    "keywords": [
+        "tools",
+        "helper",
+        "xavier"
+    ],
+    "author": {
+        "name": "Ch4b13r (Kingdox)",
+        "email": "arpaxavier@gmail.com",
+        "url": "https://ch4b13r.itch.io/"
+    },
+    "documentationUrl": "./Documentation",
+    "hideInEditor": true,
+    "repository": {
+        "type": "git",
+        "url": "git+https://kingdox@github.com/kingdox/x-common.git"
+    },
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kingdox/x-common/issues"
+    },
+    "homepage": "https://github.com/kingdox/x-common#readme"
 }
