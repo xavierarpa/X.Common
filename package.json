@@ -1,0 +1,27 @@
+{
+  "name": "com.xavier.xavhelpto",
+  "version": "4.0.3",
+  "displayName": "XavHelpTo",
+  "description": "A great helper to manage your code, Simplify your code problems",
+  "unity": "2020.1",
+  "keywords": [
+    "tools",
+    "helper",
+    "xavier"
+  ],
+  "author": {
+    "name": "Xavier Thomas Peter Arpa L\u00f3pez",
+    "email": "arpaxavier@gmail.com",
+    "url": "https://ch4b13r.itch.io/"
+  },
+  "hideInEditor": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://kingdox@github.com/kingdox/XavHelpTo.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kingdox/XavHelpTo/issues"
+  },
+  "homepage": "https://github.com/kingdox/XavHelpTo#readme"
+}

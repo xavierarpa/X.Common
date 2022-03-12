@@ -1,0 +1,352 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CommonX</name>
+    </assembly>
+    <members>
+        <member name="T:CommonX.ColorType">
+            <summary>
+            Color parameter type
+            </summary>
+        </member>
+        <member name="F:CommonX.ColorType.r">
+            <summary>
+            red
+            </summary>
+        </member>
+        <member name="F:CommonX.ColorType.g">
+            <summary>
+            green
+            </summary>
+        </member>
+        <member name="F:CommonX.ColorType.b">
+            <summary>
+            blue
+            </summary>
+        </member>
+        <member name="F:CommonX.ColorType.a">
+            <summary>
+            alpha
+            </summary>
+        </member>
+        <member name="F:CommonX.ColorType.RGB">
+            <summary>
+            RGB, the color without opacity changes
+            </summary>
+        </member>
+        <member name="T:CommonX.AxisType">
+            <summary>
+            Axis parameter type
+            </summary>
+        </member>
+        <member name="F:CommonX.AxisType.x">
+            <summary>
+            X Axis
+            </summary>
+        </member>
+        <member name="F:CommonX.AxisType.y">
+            <summary>
+            Y Axis
+            </summary>
+        </member>
+        <member name="F:CommonX.AxisType.z">
+            <summary>
+            Z Axis
+            </summary>
+        </member>
+        <member name="F:CommonX.AxisType.XYZ">
+            <summary>
+            All the Axis
+            </summary>
+        </member>
+        <member name="T:CommonX.Supply">
+            <summary>
+            Extension Pattern, Tool for the most common uses
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.Component``2(``0,``1@,System.Boolean)">
+            <summary>
+            Get the type of the gameobject selected
+            Returns the value if a value was taken
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.Components``1(UnityEngine.Transform,``0[]@)">
+            <summary>
+            Return the specified components childs of the first level in order from the transform target
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.ClearChilds(UnityEngine.Transform)">
+            <summary>
+            Remove all the childs
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.Singleton``1(``0,``0@,System.Boolean)">
+            <summary>
+            Check the status of a static reference of <typeparamref name="T"/> as a Singleton
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.Lenght``1">
+            <summary>
+            Returns the lenght of a enum
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.PercentOf(System.Single,System.Single,System.Boolean)">
+            <summary>
+             Gets the percentage of a value
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.PercentOf(System.Int32,System.Int32)">
+            <summary>
+             Gets the percentage of a value
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.QtyOf(System.Int32,System.Single,System.Boolean)">
+            <summary>
+            Gets the value based on a percentage
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.QtyOf(System.Single,System.Single,System.Boolean)">
+            <summary>
+            Gets the value based on a percentage
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.Print``1(``0,System.String)">
+            <summary>
+            Debugs a thing, but you still using the chain to know things...
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.Any``1(``0[])">
+            <summary>
+            Get any of an array
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.MinusMax(System.Int32)">
+            <summary>
+            Returns a random value between the limits possitive and negative
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.MinusMax(System.Single)">
+            <summary>
+            Returns a random value between the limits possitive and negative
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.ZeroMax(System.Int32)">
+            <summary>
+            gets a value between 0 and the max
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.ZeroMax(System.Single)">
+            <summary>
+            gets a value between 0 and the max
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.Max(System.Single,System.Single)">
+            <summary>
+            Get the value or the max
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.Max(System.Int32,System.Int32)">
+            <summary>
+            Get the value or the max
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.Min(System.Single,System.Single)">
+            <summary>
+            Get the value or the min
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.Min(System.Int32,System.Int32)">
+            <summary>
+            Get the value or the min
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.IsNullByString``1(``0)">
+            <summary>
+            Ask if it is Null
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.ToArray``1(``0[])">
+            <summary>
+            Set to array
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.Positive(System.Int32)">
+            <summary>
+            Set a value to positive
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.Positive(System.Single)">
+            <summary>
+            Set a value to positive
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.Negative(System.Int32)">
+            <summary>
+            Set a value to negative
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.Negative(System.Single)">
+            <summary>
+            Set a value to negative
+            </summary>
+        </member>
+        <member name="P:CommonX.Supply.RandomBool">
+            <summary>
+            Gets a random boolean
+            </summary>
+        </member>
+        <member name="M:CommonX.Supply.RandomColor(System.Single,System.Single)">
+            <summary>
+            Gets a random Color
+            </summary>
+        </member>
+        <member name="T:CommonX.Set.Set">
+            <summary>
+            Tool to modify
+            </summary>
+        </member>
+        <member name="M:CommonX.Set.Set.ColorParam(UnityEngine.Color,CommonX.ColorType,System.Single)">
+            <summary>
+            modify a specified value of the <seealso cref="T:CommonX.ColorType"/>
+            </summary>
+        </member>
+        <member name="M:CommonX.Set.Set.FillWith``1(``0,``0[]@)">
+            <summary>
+            Fill with a value
+            </summary>
+        </member>
+        <member name="M:CommonX.Set.Set.FillWith``1(System.Int32,``0)">
+            <summary>
+            Fill with a value
+            </summary>
+        </member>
+        <member name="T:CommonX.Change.Change">
+            <summary>
+            Tool to change status / values
+            </summary>
+        </member>
+        <member name="M:CommonX.Change.Change.ToKeyCode(System.String,System.Boolean)">
+            <summary>
+            Change to <seealso cref="T:UnityEngine.KeyCode"/>
+            </summary>
+        </member>
+        <member name="M:CommonX.Change.Change.Axis(UnityEngine.Vector3,CommonX.AxisType,System.Single)">
+            <summary>
+            Adjust the axis of a <see cref="T:UnityEngine.Vector3"/>
+            </summary>
+        </member>
+        <member name="M:CommonX.Change.Change.ToBool(System.String)">
+            <summary>   
+            Change to Bool
+            </summary>
+        </member>
+        <member name="M:CommonX.Change.Change.ToBool(System.Int32)">
+            <summary>
+            Change to Bool
+            </summary>
+        </member>
+        <member name="M:CommonX.Change.Change.ToFloat(UnityEngine.Color)">
+            <summary>
+            change to float a <seealso cref="T:UnityEngine.Color"/>
+            </summary>
+        </member>
+        <member name="M:CommonX.Change.Change.ToInt(System.Boolean)">
+            <summary>
+            Change to int
+            </summary>
+        </member>
+        <member name="M:CommonX.Change.Change.ToInt(System.Single)">
+            <summary>
+            Change to int
+            </summary>
+        </member>
+        <member name="M:CommonX.Change.Change.ToInt(System.Enum)">
+            <summary>
+            Change to int
+            </summary>
+        </member>
+        <member name="T:CommonX.Know.Know">
+            <summary>
+            Herramienta que devuelve valores booleanas o de indexación (hay excepciones..)
+            </summary>
+        </member>
+        <member name="M:CommonX.Know.Know.IsOnBounds(System.Int32,System.Int32)">
+            <summary>
+            Know wheter the value is on bounds
+            </summary>
+        </member>
+        <member name="M:CommonX.Know.Know.IsOnBounds(System.Single,System.Single)">
+            <summary>
+            Know wheter the value is on bounds
+            </summary>
+        </member>
+        <member name="M:CommonX.Know.Know.IsEqualOf``1(``0,``0[])">
+            <summary>
+            Check if one of the values from the array are equal
+            </summary>
+        </member>
+        <member name="M:CommonX.Know.Know.IsEqualOf``1(``0[],``0[])">
+            <summary>
+            Check if exist a value same as the another array
+            </summary>
+        </member>
+        <member name="M:CommonX.Know.Know.CountOf``1(``0[],``0)">
+            <summary>
+            Counts how many slots of the same value exist in a array
+            </summary>
+        </member>
+        <member name="M:CommonX.Know.Know.Contains``1(``0[],``0[])">
+            <summary>
+            Check if all the values exist in vals without checking the order
+            Return true if vals size is 0 or is not assigned
+            return false if values is 0 length
+            </summary>
+        </member>
+        <member name="M:CommonX.Know.Know.IndexOf``1(``0[],System.Int32,``0[])">
+            <summary>
+            Find the index  of a specified value
+            </summary>
+        </member>
+        <member name="M:CommonX.Know.Know.IndexOf(System.Char[],System.Int32,System.Char[])">
+            <summary>
+            Find the index  of a specified value
+            </summary>
+        </member>
+        <member name="M:CommonX.Know.Know.IndexOf(System.String,System.Int32,System.Char[])">
+            <summary>
+            Find the index  of a specified value
+            </summary>
+        </member>
+        <member name="M:CommonX.Know.Know.IndexOf``1(``0,System.Int32,``0[])">
+            <summary>
+            Find the index  of a specified value
+            </summary>
+        </member>
+        <member name="M:CommonX.Know.Know.NextIndex(System.Boolean,System.Int32,System.Int32)">
+            <summary>
+            Knows what is the following index, ignoring if its over the lenght of the limit
+            </summary>
+        </member>
+        <member name="M:CommonX.Know.Know.DifferentIndex(System.Int32,System.Int32)">
+            <summary>
+            returns another value different as the expected
+            </summary>
+        </member>
+        <member name="M:CommonX.Know.Know.Timer(System.Single,System.Single@)">
+            <summary>
+            Based on a cooldown who difference the next step and a time to store the qty
+            <para>use the Timer</para>
+            </summary>
+        </member>
+        <member name="M:CommonX.Know.Know.TimerIn(System.Single,System.Single@,System.Boolean)">
+            <summary>
+            Based on a cooldown, updates the timer and returns true if pass the cooldown
+            </summary>
+        </member>
+        <member name="M:CommonX.Know.Know.TimerFlag(System.Single,System.Boolean@,System.Single@)">
+            <summary>
+            Allows to enable a flag that can returns you the same falue until the flag change again to false
+            </summary>
+        </member>
+    </members>
+</doc>
