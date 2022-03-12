@@ -1,7 +1,7 @@
 {
-  "name": "com.xavier.xavhelpto",
-  "version": "4.0.3",
-  "displayName": "XavHelpTo",
+  "name": "com.xavier.x-common",
+  "version": "1.0.0",
+  "displayName": "X Common",
   "description": "A great helper to manage your code, Simplify your code problems",
   "unity": "2020.1",
   "keywords": [
@@ -17,11 +17,11 @@
   "hideInEditor": true,
   "repository": {
     "type": "git",
-    "url": "git+https://kingdox@github.com/kingdox/XavHelpTo.git"
+    "url": "git+https://kingdox@github.com/kingdox/x-common.git"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kingdox/XavHelpTo/issues"
+    "url": "https://github.com/kingdox/x-common/issues"
   },
-  "homepage": "https://github.com/kingdox/XavHelpTo#readme"
+  "homepage": "https://github.com/kingdox/x-common#readme"
 }
