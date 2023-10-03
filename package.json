@@ -1,5 +1,5 @@
 {
-    "name": "com.xavier.x-common",
+    "name": "com.xavierarpa.x-common",
     "version": "1.0.0",
     "displayName": "X Common",
     "description": "A great helper to manage your code, Simplify your code problems",
@@ -10,18 +10,18 @@
         "xavier"
     ],
     "author": {
-        "name": "Kingdox",
+        "name": "Xavier Arpa",
         "email": "arpaxavier@gmail.com",
-        "url": "https://ch4b13r.itch.io/"
+        "url": "https://xavierarpa.com/"
     },
     "hideInEditor": true,
     "repository": {
         "type": "git",
-        "url": "git+https://kingdox@github.com/kingdox/x-common.git"
+        "url": "git+https://xavierarpa@github.com/xavierarpa/x-common.git"
     },
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/kingdox/x-common/issues"
+        "url": "https://github.com/xavierarpa/x-common/issues"
     },
-    "homepage": "https://github.com/kingdox/x-common#readme"
+    "homepage": "https://github.com/xavierarpa/x-common#readme"
 }
